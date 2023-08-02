@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
     fun botonJugar(view: View) {
         var nombre: EditText = findViewById(R.id.editTextNombre)
 
-
         var jugar = Intent(this, JugarActivity::class.java)
 
         jugar.putExtra("Jugar", nombre.text.toString())
         startActivity(jugar)
+
     }
 
     fun botonSalir(view: View) {
