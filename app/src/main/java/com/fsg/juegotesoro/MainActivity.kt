@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
-import androidx.activity.result.contract.ActivityResultContracts
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,9 +13,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun botonJugar(view: View) {
-        var nombre: EditText = findViewById(R.id.editTextNombre)
+        val nombre: EditText = findViewById(R.id.editTextNombre)
 
-        var jugar = Intent(this, JugarActivity::class.java)
+        val jugar = Intent(this, JugarActivity::class.java)
 
         jugar.putExtra("Jugar", nombre.text.toString())
         startActivity(jugar)

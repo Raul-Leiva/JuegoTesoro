@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <TextView
@@ -20,240 +20,261 @@
             android:layout_weight="2"
             android:textAlignment="center"
             android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TableRow
+            android:id="@+id/layoutBotones1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:id="@+id/boton40"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton41"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton42"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton43"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton44"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/layoutBotones2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:id="@+id/boton30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton32"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton34"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/layoutBotones3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:id="@+id/boton20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/layoutBotones4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:id="@+id/boton10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/layoutBotones5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <Button
+                android:id="@+id/boton00"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/boton04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="botonCasilla"
+                android:text="s" />
+
+        </TableRow>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button0.0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla"
-            android:textAlignment="center" />
-
-        <Button
-            android:id="@+id/button0.1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla"
-            android:textAlignment="center" />
-
-        <Button
-            android:id="@+id/button0.2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla"
-            android:textAlignment="center" />
-
-        <Button
-            android:id="@+id/button0.3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla"
-            android:textAlignment="center" />
-
-        <Button
-            android:id="@+id/button0.4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla"
-            android:textAlignment="center" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button1.0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button1.1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button1.2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button1.3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button1.4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button2.0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button2.1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button2.2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button2.3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button2.4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:onClick="botonCasilla" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button3.0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button3.1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button3.2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button3.3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button3.4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button4.0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button4.1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button4.2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button4.3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-
-        <Button
-            android:id="@+id/button4.4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="botonCasilla" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:orientation="horizontal">
 
         <Button
@@ -270,5 +291,7 @@
             android:layout_weight="1"
             android:onClick="botonSalir"
             android:text="Salir" />
+
     </LinearLayout>
+
 </LinearLayout>
