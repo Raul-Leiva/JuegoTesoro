@@ -1,15 +1,15 @@
 package com.fsg.juegotesoro
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.text.style.BackgroundColorSpan
+import android.service.autofill.OnClickAction
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isVisible
 
 class JugarActivity : AppCompatActivity() {
     var numeroJugadas: Int = 0
@@ -21,8 +21,8 @@ class JugarActivity : AppCompatActivity() {
         val nombre = intent.getStringExtra("Jugar").toString()
         val textViewNombre: TextView = findViewById(R.id.textViewNombre)
 
-        textViewNombre.text = "Bienvenido al juego " + nombre
 
+        textViewNombre.text = "Bienvenido al juego " + nombre
         var listaBotones: ArrayList<Button> = ArrayList(25)
         listaBotones.add(findViewById(R.id.boton0))
         listaBotones.add(findViewById(R.id.boton1))
@@ -53,46 +53,49 @@ class JugarActivity : AppCompatActivity() {
         var numeroAleatorioBomba: Int = (0..24).random()
         listaBotones[numeroAleatorioBomba].tag = "#"
         var numeroAleatorioTesoro: Int = (0..24).random()
-        if(numeroAleatorioBomba != numeroAleatorioTesoro) {
+        if (numeroAleatorioBomba != numeroAleatorioTesoro) {
             listaBotones[numeroAleatorioTesoro].tag = "$"
-        } else{
+        } else {
             listaBotones[numeroAleatorioBomba].tag = "#"
         }
     }
-fun verRecord(){
-    var sharedPreferences = getSharedPreferences("Juego", Context.MODE_PRIVATE)
-    var recordAnterior = sharedPreferences.getInt("Record", -1)
 
-    if (recordAnterior < numeroJugadas){
-        Toast.makeText(this, "Nuevo Record!!", Toast.LENGTH_SHORT).show()
-        var editor = sharedPreferences.edit()
-        editor.putInt("Record", numeroJugadas)
-        editor.commit()
+    fun verRecord() {
+        var sharedPreferences = getSharedPreferences("Juego", Context.MODE_PRIVATE)
+        var recordAnterior = sharedPreferences.getInt("Record", -1)
+
+        if (recordAnterior < numeroJugadas) {
+            Toast.makeText(this, "Nuevo Record!!", Toast.LENGTH_SHORT).show()
+            var editor = sharedPreferences.edit()
+            editor.putInt("Record", numeroJugadas)
+            editor.commit()
+        }
     }
-}
+
     fun botonCasilla(view: View) {
-        numeroJugadas ++
+        numeroJugadas++
         var boton = view as Button
         var etiquetaBoton: String? = boton.tag as String?
 
-        if (etiquetaBoton != null && etiquetaBoton.equals("$")){
+        if (etiquetaBoton != null && etiquetaBoton.equals("$")) {
             Toast.makeText(this, "¡Enhorabuena! Has ganado", Toast.LENGTH_SHORT).show()
             boton.setBackgroundColor(Color.GREEN)
-            finish()
-        }
-        else if (etiquetaBoton != null && etiquetaBoton.equals("#")){
+
+            val ganador = Intent(this, ganador::class.java)
+            ganador.putExtra("ganador", String())
+            startActivity(ganador)
+
+        } else if (etiquetaBoton != null && etiquetaBoton.equals("#")) {
             Toast.makeText(this, "¡Vaya! Has pedido", Toast.LENGTH_SHORT).show()
             boton.setBackgroundColor(Color.RED)
             verRecord()
             finish()
-        }
-        else{
+        } else {
             boton.text = "S"
             boton.setBackgroundColor(Color.BLUE)
             verRecord()
         }
     }
-
     fun botonSalir(view: View) {
         finish()
     }

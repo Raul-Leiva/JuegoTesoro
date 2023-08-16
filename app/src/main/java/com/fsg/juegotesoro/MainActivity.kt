@@ -1,10 +1,10 @@
 package com.fsg.juegotesoro
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         jugar.putExtra("Jugar", nombre.text.toString())
         startActivity(jugar)
     }
+
     fun botonSalir(view: View) {
         finish()
     }

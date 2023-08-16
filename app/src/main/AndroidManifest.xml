@@ -13,6 +13,9 @@
         android:theme="@style/Theme.JuegoTesoro"
         tools:targetApi="31">
         <activity
+            android:name=".ganador"
+            android:exported="false" />
+        <activity
             android:name=".JugarActivity"
             android:exported="false" />
         <activity
