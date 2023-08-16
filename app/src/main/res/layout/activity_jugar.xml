@@ -37,44 +37,44 @@
             android:layout_weight="0.6">
 
             <Button
-                android:id="@+id/boton40"
+                android:id="@+id/boton0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="$" />
 
             <Button
-                android:id="@+id/boton41"
+                android:id="@+id/boton1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="#" />
 
             <Button
-                android:id="@+id/boton42"
+                android:id="@+id/boton2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton43"
+                android:id="@+id/boton3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton44"
+                android:id="@+id/boton4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
         </TableRow>
 
@@ -85,44 +85,44 @@
             android:layout_weight="0.6">
 
             <Button
-                android:id="@+id/boton30"
+                android:id="@+id/boton5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton31"
+                android:id="@+id/boton6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton32"
+                android:id="@+id/boton7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton33"
+                android:id="@+id/boton8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton34"
+                android:id="@+id/boton9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
         </TableRow>
 
@@ -133,44 +133,44 @@
             android:layout_weight="0.6">
 
             <Button
-                android:id="@+id/boton20"
+                android:id="@+id/boton10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton21"
+                android:id="@+id/boton11"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton22"
+                android:id="@+id/boton12"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton23"
+                android:id="@+id/boton13"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton24"
+                android:id="@+id/boton14"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
         </TableRow>
 
@@ -181,44 +181,44 @@
             android:layout_weight="0.6">
 
             <Button
-                android:id="@+id/boton10"
+                android:id="@+id/boton15"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton11"
+                android:id="@+id/boton16"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton12"
+                android:id="@+id/boton17"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton13"
+                android:id="@+id/boton18"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton14"
+                android:id="@+id/boton19"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
         </TableRow>
 
@@ -229,44 +229,44 @@
             android:layout_weight="0.6">
 
             <Button
-                android:id="@+id/boton00"
+                android:id="@+id/boton20"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton01"
+                android:id="@+id/boton21"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton02"
+                android:id="@+id/boton22"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton03"
+                android:id="@+id/boton23"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
             <Button
-                android:id="@+id/boton04"
+                android:id="@+id/boton24"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="botonCasilla"
-                android:text="s" />
+                android:tag="V" />
 
         </TableRow>
     </LinearLayout>

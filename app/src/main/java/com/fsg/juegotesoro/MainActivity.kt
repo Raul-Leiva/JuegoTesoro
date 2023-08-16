@@ -14,14 +14,11 @@ class MainActivity : AppCompatActivity() {
 
     fun botonJugar(view: View) {
         val nombre: EditText = findViewById(R.id.editTextNombre)
-
         val jugar = Intent(this, JugarActivity::class.java)
 
         jugar.putExtra("Jugar", nombre.text.toString())
         startActivity(jugar)
-
     }
-
     fun botonSalir(view: View) {
         finish()
     }
